@@ -1,5 +1,4 @@
 def get_initial_readings():
-    """Return the initial simulated device temperature readings."""
     return [28, 31, 35, 37, 29]
 
 
