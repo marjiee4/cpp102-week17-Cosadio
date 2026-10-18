@@ -4,9 +4,12 @@ System Under Test: Simulated Device Monitoring System
 Tester: Marjorie Cosadio 
 Date: October 17, 2026  
 
+---
+
 ## 1. Test Results
 
 | TC | Action | Expected Result | Actual Result | Pass/Fail |
+|---|---|---|---|---|
 | TC01 | Choose 1 | Display the five initial readings: 28, 31, 35, 37, 29. | Five readings displayed correctly. | Pass |
 | TC02 | Choose 2, enter 33 | Reading added successfully. | Reading added successfully. | Pass |
 | TC03 | Choose 2, enter `abc` | Display a whole-number validation message. | Invalid input message shown. | Pass |
@@ -21,6 +24,9 @@ Date: October 17, 2026
 | TC12 | Choose 2, enter 59 | Add the reading; classify it as CRITICAL under the defined thresholds. | Reading added successfully. | Pass |
 | TC13 | Choose 2, enter 80 | Add the reading; classify it as CRITICAL. | Reading added successfully. | Pass |
 | TC14 | Choose 2, enter `-` | Reject the input without crashing. | Invalid-input message shown. | Pass |
+
+---
+
 
 ## 2. Bugs Found and Fixed
 
